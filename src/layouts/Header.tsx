@@ -1,8 +1,4 @@
-import { useState } from "react"
-
 export default function Header() {
-    const [isOpenNav, setIsOpenNav] = useState<boolean>(false);
-
     return (
         <div className="flex justify-between z-[100] items-center w-full h-[80px] md:px-[150px] bg-white fixed shadow-md">
             <div>
