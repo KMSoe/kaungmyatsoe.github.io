@@ -53,6 +53,15 @@ export default function Education() {
                             </div>
                             <div className="text-slate-500 pl-3 pt-3">
                                 <ul className="list-disc">
+                                    <li>Programming Basic Concepts</li>
+                                    <li>File IO, Exceptions</li>
+                                    <li>Data Structure & Algorithms</li>
+                                    <li>Data Modelling with MySQL</li>
+                                </ul>
+                            </div>
+                            <div className="text-slate-500 pl-3 pt-3">
+                                <h5>Projects</h5>
+                                <ul className="list-disc">
                                     <li>Stock Manager App</li>
                                 </ul>
                             </div>
@@ -87,6 +96,12 @@ export default function Education() {
                                     <li>SQL</li>
                                     <li>Web Programming</li>
                                     <li>Backend Development using Python</li>
+                                </ul>
+                            </div>
+                            <div className="text-slate-500 pl-3 pt-3">
+                                <h5>Projects</h5>
+                                <ul className="list-disc">
+                                    <li>Simple E-commerce</li>
                                 </ul>
                             </div>
                         </div>

@@ -8,7 +8,7 @@ export default function Footer() {
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 text-base font-medium sm:mt-0">
                     <li>
-                        <a href="#home" className="mr-4 hover:underline md:mr-6 ">Home</a>
+                        <a href="/" className="mr-4 hover:underline md:mr-6 ">Home</a>
                     </li>
                     <li>
                         <a href="#about" className="mr-4 hover:underline md:mr-6 ">About</a>
@@ -21,6 +21,9 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="#education" className="mr-4 hover:underline md:mr-6">Education</a>
+                    </li>
+                    <li>
+                        <a href="#projects" className="mr-4 hover:underline md:mr-6">Projects</a>
                     </li>
                     <li>
                         <a href="#contact" className="hover:underline">Contact</a>

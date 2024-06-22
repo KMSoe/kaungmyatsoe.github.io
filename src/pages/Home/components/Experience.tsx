@@ -1,3 +1,6 @@
+import Foodmall from '../../../assets/images/experiences/foodmall.png';
+import VOLogo from '../../../assets/images/experiences/vorp-logo.png';
+
 export default function Experience() {
     return (
         <section id="experience">
@@ -17,19 +20,35 @@ export default function Experience() {
                         </div>
 
                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-                            <div className="flex items-center justify-between space-x-2 mb-1">
+                            {/* <div className="flex items-center justify-between space-x-2 mb-1">
                                 <div className="font-bold text-slate-900"><i>Web Developer</i> at Foodmall Food Delivery Service</div>
 
                             </div>
                             <div>
                                 <time className="font-caveat font-medium text-indigo-500">01/2022 – 02/2023</time>
+                            </div> */}
+                            <div className="flex p-6 items-center justify-between">
+                                <div className="flex">
+                                    <a className="inline-block mr-4" href="#">
+                                        <img className="rounded-full max-w-none w-14 h-14" src={Foodmall} alt='Foodmall Myamar' />
+                                    </a>
+                                    <div className="flex flex-col">
+                                        <div className="flex items-center">
+                                            <a className="inline-block text-lg font-bold mr-2" href="#">Foodmall Myanmar (Mall Plus)</a>
+                                        </div>
+                                        <div className="text-slate-800">Web Developer</div>
+                                        <div className="text-slate-500">
+                                            <span>Jan 2022</span> - <span>Feb 2023</span> .<span>1 year & 2 months</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div className="text-slate-500 pl-3 pt-3">
                                 <ul className="list-disc">
+                                    <li>Developed <b>Rider App backend API Service</b> with time table, Shift Assign, break time, Payroll, Performance Batch calculation, deposit reports and payment integration to pay back to the office </li>
                                     <li>Developed a <b>Parcel Delivery system </b></li>
-                                    <li>Developed <b>Rider App backend API Service</b> with time table, Shift Assign, break time, Payroll, Performance Batch calculation, deposit reports and payment integration for cash back to the office </li>
-                                    <li>Provided Payment Integration to Food Delivery Customer App and managed Deposit calculation related to the different types of Online Pays in the different situations of customer orders </li>
-                                    <li>Provided Sale Reports to Restaurents with High Database Efficiency</li>
+                                    <li>Integrated Online Payment Services to Food Delivery Customer App and managed Deposit calculation related to the different types of Online Pays in the different situations of customer orders </li>
+                                    <li>Provided Sale Reports to Restaurants with High Database Efficiency</li>
                                 </ul>
                             </div>
                         </div>
@@ -45,21 +64,30 @@ export default function Experience() {
                         </div>
 
                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-                            <div className="flex items-center justify-between space-x-2 mb-1">
-                                <div className="font-bold text-slate-900"><i>Web Developer</i> at Visible One HK</div>
-
-                            </div>
-                            <div>
-                                <time className="font-caveat font-medium text-indigo-500">03/2023 – present</time>
+                            <div className="flex p-6 items-center justify-between">
+                                <div className="flex">
+                                    <a className="inline-block mr-4" href="#">
+                                        <img className="rounded-full max-w-none w-14 h-14" src={VOLogo} alt='Visible One' />
+                                    </a>
+                                    <div className="flex flex-col">
+                                        <div className="flex items-center">
+                                            <a className="inline-block text-lg font-bold mr-2" href="#">Visible One</a>
+                                        </div>
+                                        <div className="text-slate-800">Web Developer</div>
+                                        <div className="text-slate-500">
+                                            <span>March 2023</span> - <span>present</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div className="text-slate-500 pl-3 pt-3">
                                 <ul className="list-disc">
-                                    <li>Leaded in a Laravel-React project with HR
-                                        managements and other features, handle
-                                        Datebase Schema, developed backend API Services
-                                        and some complex modules in react
+                                    <li>Lead in a HR Reporting project with HR managements like Attendance, Leave, OT, Resource Sharing,
+                                        Employee Daily Report and other features, handle App Architecture, Database Schema, develop backend API
+                                        Services and some complex modules in frontend.
                                     </li>
-                                    <li>Integrated <b>Union Pay</b> in a Donation Form</li>
+                                    <li>Support in Password Manager Extension Development integrated with HRMS.</li>
+                                    <li>Integrate <b>China Union Pay</b> in a Donation Form</li>
                                     <li>Develop e-commerce, inventory system, medical information sites, and support in some e-commerce projects</li>
                                 </ul>
                             </div>

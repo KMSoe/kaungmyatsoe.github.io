@@ -3,26 +3,32 @@ export default function Contact() {
         <section id="contact" className="bg-white">
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-xl">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Me</h2>
-                <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">Leave a
-                    note here, and I'll get back to you as soon as possible.</p>
-                <div className="grid gap-4 md:grid-cols-3">
-                    <div className="md:col-span-1 pt-12">
-                        <div className="mb-8 flex items-center space-x-4 w-3/4">
-                            <i className="fa-solid fa-location-pin"></i>
-
+                {/* <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">Leave a
+                    note here, and I'll get back to you as soon as possible.</p> */}
+                <div className="flex justify-center">
+                    <div className="pt-12">
+                        <div className="mb-2 flex items-center space-x-4">
+                            <i className="fa-solid fa-phone"></i>
                             <p className="text-body-color text-base my-0">
-                                Hlaing Township, Yangon
+                                09986507933
                             </p>
 
                         </div>
-                        <div className="mb-8 flex items-center space-x-4 w-3/4">
+                        <div className="mb-2 flex items-center space-x-4">
                             <i className="fa-solid fa-envelope"></i>
-
                             <p className="text-body-color text-base my-0">
                                 <a href="mailto: kaungmyatsoe.m192@gmail.com">kaungmyatsoe.m192@gmail.com</a>
                             </p>
 
                         </div>
+                        <div className="mb-2 flex items-center space-x-4">
+                            <i className="fa-solid fa-location-pin"></i>
+                            <p className="text-body-color text-base my-0">
+                                Hlaing Township, Yangon
+                            </p>
+
+                        </div>
+
                         <div>
                             <p className="my-3">Reach me</p>
                             <div className="flex gap-4">
@@ -46,7 +52,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <form className="md:col-span-2 space-y-8">
+                    {/* <form className="md:col-span-2 space-y-8">
                         <div className="">
                             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Name</label>
                             <input type="text" name="name" value="{{ old('name') }}" id="name"
@@ -87,11 +93,9 @@ export default function Contact() {
                         <button type="submit"
                             className="text-white bg-indigo-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none">Send
                             Message</button>
-                    </form>
+                    </form> */}
                 </div>
             </div>
         </section>
-
-
     );
 }
